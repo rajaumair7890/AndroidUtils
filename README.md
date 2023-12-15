@@ -14,8 +14,8 @@ This Repository contains utility/helper classes and functions to facilitate Andr
 
 ## Material 3 Time Picker Tile and Dialog
 <p align="center">
-  <img src="timepicker1" alt="Screenshot 1" width="158" height="276"/>
-  <img src="timepicker2" alt="Screenshot 1" width="158" height="276"/>
+  <img src="timepicker1.png" alt="Screenshot 1" width="158" height="276"/>
+  <img src="timepicker2.png" alt="Screenshot 1" width="158" height="276"/>
 </p>
 
 ## Animated Fab Menu
