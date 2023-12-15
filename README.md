@@ -11,9 +11,16 @@ This Repository contains utility/helper classes and functions to facilitate Andr
 - powered by kotlin coroutines and flow so its thread safe!
 
 # Jetpack Compose Custom material 3 Components
-## AnimatedFabMenu
+
+## Material 3 Time Picker Tile and Dialog
+<p align="center">
+  <img src="timepicker1" alt="Screenshot 1" width="158" height="276"/>
+  <img src="timepicker2" alt="Screenshot 1" width="158" height="276"/>
+</p>
+
+## Animated Fab Menu
 - A Custom Android UI component, Build with Jetpack Compose, allows you to add a beautiful material 3 designed floating menu, which can be shown or hidden with beautiful animations by pressing the attached FAB..
 
 <p align="center">
-  <img src="AnimatedFABMenu.gif" alt="Screenshot 1" width="258" height="376"/>
+  <img src="AnimatedFABMenu.gif" alt="Screenshot 1" width="158" height="276"/>
 </p>
