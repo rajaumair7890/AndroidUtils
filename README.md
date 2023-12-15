@@ -14,13 +14,13 @@ This Repository contains utility/helper classes and functions to facilitate Andr
 
 ## Material 3 Time Picker Tile and Dialog
 <p align="center">
-  <img src="timepicker1.png" alt="Screenshot 1" width="158" height="276"/>
-  <img src="timepicker2.png" alt="Screenshot 1" width="158" height="276"/>
+  <img src="timepicker1.png" alt="Screenshot 1" width="108" height="226"/>
+  <img src="timepicker2.png" alt="Screenshot 1" width="100" height="50"/>
 </p>
 
 ## Animated Fab Menu
 - A Custom Android UI component, Build with Jetpack Compose, allows you to add a beautiful material 3 designed floating menu, which can be shown or hidden with beautiful animations by pressing the attached FAB..
 
 <p align="center">
-  <img src="AnimatedFABMenu.gif" alt="Screenshot 1" width="158" height="276"/>
+  <img src="AnimatedFABMenu.gif" alt="Screenshot 1" width="108" height="226"/>
 </p>
