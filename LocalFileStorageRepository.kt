@@ -1,4 +1,9 @@
-package com.codingwithumair.app.autowallswitch.data
+/*
+A file storage class providing functions to read, write, update, delete image files 
+from your App's Internal/private storage, and also make a Bitmap from a content Uri! 
+- powered by kotlin coroutines and flow so its thread safe!
+*/
+package com.codingwithumair.app
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -52,7 +57,7 @@ class LocalFileStorageRepository(
 		)
 	}.flowOn(Dispatchers.IO)
 
-	private suspend fun deleteImageFromInternalStorage(filename: String): Boolean{
+	suspend fun deleteImageFromInternalStorage(filename: String): Boolean{
 		return withContext(Dispatchers.IO) {
 			return@withContext try {
 				context.deleteFile(filename)
