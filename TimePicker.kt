@@ -1,6 +1,5 @@
-package com.codingwithumair.app.autowallswitch.ui.utils
+package com.codingwithumair.app
 
-import android.util.Log
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
@@ -34,8 +33,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
-import com.codingwithumair.app.autowallswitch.model.Time
 
+data class Time(
+	val hourOfDay: Int = 0,
+	val minute: Int = 0
+)
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -69,7 +71,7 @@ fun TimePicker(
 							minute = timePickerState.minute,
 						)
 					)
-					Log.d("TimePicker", "is24Hours: ${timePickerState.is24hour}")
+					
 					showTimePicker = false
 				}
 			) {
